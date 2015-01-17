@@ -23,6 +23,7 @@ body.active_admin
   height: 40px
   padding: 0
   h1.site_title
+    width: 0px
     background-color: #fff
     background: $skinLogo
     padding-left: 0px
@@ -34,7 +35,7 @@ body.active_admin
     padding: 0
     font-size: 0
   ul.tabs > li:hover > a, ul.tabs > li.current > a
-    color: $skinTextActiveColor
+    color: lighten($skinTextActiveColor, 10%)
     background: $skinActiveColor
     @include rounded(0)
     margin: -10px 0
